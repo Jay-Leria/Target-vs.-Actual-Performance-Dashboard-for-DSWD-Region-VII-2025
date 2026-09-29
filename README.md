@@ -49,7 +49,10 @@ The **16 programs** are grouped into four categories:
 | **Protective Centers** | RRCY, RSCC, HAVEN, HFG, AVRC II                       |
 | **Innovation**         | Food Stamp Program                                    |
 
-### Summary
+## Questions (KPI)
 
-Overall, the dataset provides program-level physical and financial accomplishment data for LGUs across the four provinces of Central Visayas. It is used as the underlying dataset for the dashboard's analysis and visualization of program targets and actual accomplishments.
+* What share of physical and financial targets has actually been accomplished, overall and by province?
+* Which programs/categories are ahead of or behind target?
+* How does accomplishment vary between the four provinces and their districts?
+* Which LGUs are outperforming or lagging their peers?
 
