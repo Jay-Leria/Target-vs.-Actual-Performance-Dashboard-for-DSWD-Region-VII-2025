@@ -60,10 +60,29 @@ The **16 programs** are grouped into four categories:
 **Core KPIs:** Target Physical Accomplishment, Actual Physical Accomplishment, % Physical Accomplished; Target Financial Accomplishment, Actual Financial Accomplishment, % Financial Accomplished. Each sliceable by Province, Program, Category, and District.
  
 ## Process
-1. Consolidated per-program records into one workbook, standardizing program and category labels
-2. Cleaned the data — left target fields blank (not zero) where a program has no per-LGU target set, so it wouldn't distort the % calculations
-3. Loaded into Power BI and built DAX measures for % Physical and % Financial Accomplished (using DIVIDE() to safely handle blanks/zeros)
-4. Built 8 report pages — Overview plus one per category/program group — with a shared visual language
-5. Added a custom icon-based navigation bar and a glossary page for non-technical viewers
-6. QA'd totals against source data and tested cross-filtering across all pages
+1. Consolidated per-program records into one workbook, standardizing program and category labels.
+2. Cleaned the data. Left target fields blank (not zero) where a program has no per-LGU target set, so it wouldn't distort the % calculations.
+3. Loaded into Power BI and built DAX measures for % Physical and % Financial Accomplished (using DIVIDE() to safely handle blanks/zeros).
+4. Built 8 report pages, Overview plus one per category/program group, with a shared visual language.
+5. Added a custom icon-based navigation bar and a glossary page for non-technical viewers.
+6. QA'd totals against source data and tested cross-filtering across all pages.
 
+## Dashboard Overview
+A persistent icon sidebar lets users jump directly between Overview, Protective, Protective Centers, Promotive, Innovation, AKAP, and AICS pages. Each page carries slicers (province, district) that filter every visual on that page at once. Clustered column charts show Target vs. Actual side by side by province or program; donut charts on category pages break down Actual (and Target, where available) by province for each individual program. KPI cards up top summarize totals, and clicking any bar or donut segment cross-filters the rest of the page. A dedicated glossary page defines each program acronym for viewers unfamiliar with DSWD program names.
+![Dashboard Overview](./Overview%20Screenshot.png)
+
+### 6. Project Insight
+
+Overall, the data shows **75.5% physical** and **69.4% financial** accomplishment (**854,055 → 644,440** target-to-actual physical; **₱6.24B → ₱4.33B** target-to-actual financial). Breaking that down by province reveals a much bigger story than the overall number suggests:
+
+| Province | Physical % | Financial % |
+|----------|-----------:|------------:|
+| Bohol | 52.6% | 35.1% |
+| Cebu | 77.1% | 77.0% |
+| Negros Oriental | 102.7% | 93.2% |
+| Siquijor | 68.7% | 94.9% |
+
+Bohol lags well behind the other three provinces on both measures. Negros Oriental exceeded its physical target (102.7%), while Siquijor's financial accomplishment (94.9%) is far ahead of its physical progress (68.7%), suggesting funds have been disbursed faster than the associated physical activities were completed there.
+
+## Final Conclusion
+This dashboard turns a fragmented, program-by-program reporting process into one consolidated, filterable tool that surfaces actionable gaps, like Bohol's underperformance, that would be easy to miss in raw spreadsheets. Beyond the reporting value, the project demonstrates the full BI workflow end to end: data cleaning and standardization, relational data modeling, DAX measure design, and dashboard/UX design built for non-technical stakeholders.
