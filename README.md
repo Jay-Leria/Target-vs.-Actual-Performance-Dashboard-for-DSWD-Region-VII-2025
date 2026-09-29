@@ -60,4 +60,10 @@ The **16 programs** are grouped into four categories:
 **Core KPIs:** Target Physical Accomplishment, Actual Physical Accomplishment, % Physical Accomplished; Target Financial Accomplishment, Actual Financial Accomplishment, % Financial Accomplished. Each sliceable by Province, Program, Category, and District.
  
 ## Process
+1. Consolidated per-program records into one workbook, standardizing program and category labels
+2. Cleaned the data — left target fields blank (not zero) where a program has no per-LGU target set, so it wouldn't distort the % calculations
+3. Loaded into Power BI and built DAX measures for % Physical and % Financial Accomplished (using DIVIDE() to safely handle blanks/zeros)
+4. Built 8 report pages — Overview plus one per category/program group — with a shared visual language
+5. Added a custom icon-based navigation bar and a glossary page for non-technical viewers
+6. QA'd totals against source data and tested cross-filtering across all pages
 
