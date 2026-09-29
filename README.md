@@ -55,4 +55,6 @@ The **16 programs** are grouped into four categories:
 * Which programs/categories are ahead of or behind target?
 * How does accomplishment vary between the four provinces and their districts?
 * Which LGUs are outperforming or lagging their peers?
+
+
 **Core KPIs:** Target Physical Accomplishment, Actual Physical Accomplishment, % Physical Accomplished; Target Financial Accomplishment, Actual Financial Accomplishment, % Financial Accomplished. Each sliceable by Province, Program, Category, and District.
