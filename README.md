@@ -71,7 +71,7 @@ The **16 programs** are grouped into four categories:
 A persistent icon sidebar lets users jump directly between Overview, Protective, Protective Centers, Promotive, Innovation, AKAP, and AICS pages. Each page carries slicers (province, district) that filter every visual on that page at once. Clustered column charts show Target vs. Actual side by side by province or program; donut charts on category pages break down Actual (and Target, where available) by province for each individual program. KPI cards up top summarize totals, and clicking any bar or donut segment cross-filters the rest of the page. A dedicated glossary page defines each program acronym for viewers unfamiliar with DSWD program names.
 ![Dashboard Overview](./Overview%20Screenshot.png)
 
-### 6. Project Insight
+### Project Insight
 
 Overall, the data shows **75.5% physical** and **69.4% financial** accomplishment (**854,055 → 644,440** target-to-actual physical; **₱6.24B → ₱4.33B** target-to-actual financial). Breaking that down by province reveals a much bigger story than the overall number suggests:
 
